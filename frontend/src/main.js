@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
 
 Vue.config.productionTip = false
 
@@ -13,3 +15,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+Vue.use(Buefy)
